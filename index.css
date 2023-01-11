@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Poppins-Regular', sans-serif;
 }
 .uppermain{
     background-color: #eeeeee;
@@ -11,7 +12,7 @@
 #topnav{
     margin: auto;
     /* border: .5px solid blue; */
-    width: 80%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
 }
@@ -32,28 +33,30 @@
     width: 90px;
     height: 30px;
 }
-.lowermain{
+.lowermain{ 
     background-color: white;
     width: 100%;
     box-shadow: 0 8px 6px -6px rgb(37, 37, 37);
 
 }
 .lownav{
+    height: 80px;
     margin: 0 auto;
     background-color: rgb(255, 255, 255);
-    width: 80%;
+    width:90%;
     display: flex;
     justify-content: space-between;
 }
 .lownav img{
     width: 200px;
     height: 60px;
+    padding-top: 10px;
 }
 .lownav ul{
-    padding: 20px;
     width: 90%;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 .lownav li{
     list-style: none;
@@ -70,25 +73,160 @@
     
 }
 .mainpage{
-    width: 100%;
-    height: 100vh;
-    background-color: aquamarine;
+    position: relative;
+    background-color: none;
 }
 #circle1{
+    position: absolute;
+    left: 90px;
+    opacity: 20%;
+    top: 100px;
     margin: 100;
     border-radius: 50%;
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     background-color: #818181;
 }
 #circle2{
-
+    opacity: 20%;
+    position: absolute;
+    top: 370px;
+    left: 500px;
     border-radius: 50%;
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     background-color: #818181;
 }
-.circ{
-    width: 100%;
-    height: 100%;
+#circle3{
+    opacity: 20%;
+    position: absolute;
+    top: 50px;
+    left: 730px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: #818181;
+}
+#redcircle{
+    opacity: 20%;
+    position: absolute;
+    top: 10px;
+    right: 45px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background-color: #ff9191;
+}
+.content{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-top: 0;
+    align-items: flex-start;
+    position: relative;
+    top: ;
+}
+.text{
+    padding-top: 90px;
+}
+.head{
+    font-weight: bolder;
+    font-size: 45px;
+}
+#green{
+    color: rgb(27, 109, 27);
+}
+.midhead{
+    font-weight: bold;
+    font-size: 25px;
+}
+.para{
+    font-size: 20px;
+    color: #454545;
+}
+.img img{
+    width: 600px;
+}
+.button{
+    width: 200px;
+    height: 50px;
+    border: 1px solid #454545;
+    border-radius: 7px;
+}
+.button a{
+    color: #454545;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    padding: 14px;
+}
+.donation{
+    border-radius: 12px;
+    background-color: rgb(208, 255, 208);
+    position: relative;
+    height: 160px;
+    margin: auto;
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+}
+.menu{
+    right: px;
+    top: 50px;
+    border: 1px solid black;
+    width: 75%;
+    right: 0;
+    position: absolute;
+    display: flex;
+    justify-content:space-around;
+    padding-top: 40px;
+}
+.help{
+    padding-top: 30px;
+    padding-left: 30px;
+    left: 0;
+    position: absolute;
+    background-color: none;
+    width: 27%;
+}
+#helpbold{
+    font-size:30px;
+    font-weight: 600;
+}
+#quickdonation{
+    color: rgb(94, 94, 243);
+    font-size:19px;
+    font-weight: 500;
+}
+#m1{
+
+    width: 220px;
+    height: 50px;
+}
+#m2{
+    width: 120px;
+    height: 50px;
+}
+#m3{
+    width: 220px;
+    height: 50px;
+}
+#m4{
+    width: 90px;
+    height: 50px;
+}
+#donate{
+    background-color: greenyellow;
+    width: 80px;
+    height: 50px;
+    border-radius: 12px;
+
+}
+.white{
+
+    position: relative;
+    display: inline;
+    background-color: white;
+    border-radius: 12px;
 }
