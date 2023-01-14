@@ -205,6 +205,7 @@
     width: 225px;
     height: 50px;
 }
+
 #m2{
     display: flex;
     justify-content: center;
@@ -239,6 +240,10 @@
     font-weight: 600;
 
 }
+#donate:hover{
+    transform: scale(1.2);
+}
+
 .white{
     font-size: 16px;
     font-weight: 600;
@@ -246,6 +251,12 @@
     display: inline;
     background-color: white;
     border-radius: 5px;
+}
+.white:hover{
+    transform: scale(1.2);
+    color: white;
+    background-color: rgb(53, 52, 52); !important
+    
 }
 #blanket{
     margin-top: 30px;
@@ -288,6 +299,9 @@
     background-color: rgb(228, 253, 223);
     border-radius: 5px;
 }
+.thumb:hover{
+    transform: scale(1.2);
+}
 .midlink{
     margin-top: 30px;
     display: flex;
@@ -304,33 +318,35 @@
 .pbox{
     position: relative;
     text-align: left;
-    width: 31.5%;
-    height: 90%;
+    width: 32%;
+    height: 95%;
     border-radius: 10px;
 }
 #pbox1{
-    padding-top: 170px;
+    
+    padding-top: 180px;
     background-image: url(./flood.jpg);
     background-size: cover;
 
 }
 #pbox2{
-    padding-top: 190px;
+    padding-top: 200px;
     background-image: url(./training.jpg);
     background-size: cover;
 }
 #pbox3{
-    padding-top: 190px;
+    padding-top: 200px;
     background-image: url(./needy.jpg);
     background-size: cover;
 }
 .ptxt{
+    padding: 5px;
     font-size: large;
     font-weight: 600;
     color: rgb(248, 248, 248);
 }
 .btndonate{
-    outline: none;
+    outline-style: none;
     text-align: center;
     background-color: rgb(196, 255, 108);
     width: 95%;
