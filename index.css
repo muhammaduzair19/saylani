@@ -366,7 +366,6 @@
     margin-top: 30px;
     width: 100%;
     height: 500px;
-    border: 1px solid black;
 }
 .pb{
     display: flex;
@@ -375,7 +374,6 @@
     margin-right: auto;
     width: 85%;
     height: 100%;
-    border: 1px solid palevioletred;
 }
 .ptbox{
     display: flex;
@@ -421,11 +419,58 @@
     height: 100%;
 }
 .phead{
-    padding: 5px;
+    margin-left: 15px;
+    padding-top: 30px;
     width: 100%;
+    height: 20%;
     text-align:left;
     font-weight: 700;
     font-size: xx-large;
+}
+.pptext{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    margin-left: 15px;
+    justify-content: space-between;
+}
+.head_text{
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.head_text h3{
+    color: rgb(38, 38, 155);
+}
+.head_text p{
+    color:#454545;
+}
+#i1{
+    background-image: url(./hepati.png);
+    width: 18%;
+    height: 50%;
+}
+#i2{
+    background-image: url(./housing.png);
+    width: 25%;
+    height: 48%;
+}
+#i3{
+    background-image: url(./IT.png);
+    width: 25%;
+    height: 48%;
+}
+#i4{
+    background-image: url(./tharparkar.png);
+    width: 21%;
+    height: 48%;
+}
+.itag{
+    text-align: right;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:60%;
+    background-color: #b9b9b9;
+    border-radius: 10px;
 }
 .count{
     margin-top: 30px;
@@ -440,4 +485,14 @@
     background-repeat: no-repeat;
     width: 85%;
     height: 100%;
+}
+.testimonials{
+    font-weight: 300;
+    text-align: center;
+    color: rgb(135, 215, 14);;
+}
+.whattheysay{
+    text-align: center;
+    font-weight: 700;
+    font-size: xx-large;
 }
